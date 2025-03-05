@@ -15,8 +15,8 @@ public class JDBC1Overview {
         Class.forName("com.mysql.cj.jdbc.Driver");
 
         String url = "jdbc:mysql://127.0.0.1:3306/ureca";
-        String user = "ureca";
-        String password = "ureca";
+        String user = "root";
+        String password = "1234";
         Connection con = DriverManager.getConnection(url, user, password);
 
         String query = "SELECT e.empno, e.ename, e.job, e.mgr, e.hiredate, e.sal, e.comm, e.deptno"
