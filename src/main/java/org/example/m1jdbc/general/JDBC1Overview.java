@@ -26,5 +26,6 @@ public class JDBC1Overview {
         Statement stmt = con.createStatement();
         ResultSet rs = stmt.executeQuery(query);
 
+
     }
 }
