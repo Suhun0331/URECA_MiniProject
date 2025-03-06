@@ -4,12 +4,12 @@ import javax.swing.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class L1Frame2 {
+public class L1Frame4 {
 
     private JFrame frm;
     private WindowEventProcessor winEventProc;
 
-    public L1Frame2() {
+    public L1Frame4() {
         frm = new JFrame("제목은 여기에 쓰시면 됩니다.");
         winEventProc = new WindowEventProcessor();
     }
@@ -25,7 +25,7 @@ public class L1Frame2 {
     }//addEvent
 
     public static void main(String[] args) {
-        L1Frame2 test = new L1Frame2();
+        L1Frame4 test = new L1Frame4();
         test.makeGui();
         test.addEvent();
     }
